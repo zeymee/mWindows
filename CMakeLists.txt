@@ -22,3 +22,5 @@ target_compile_definitions(mWindows PUBLIC
     UNICODE
     _UNICODE
 )
+
+target_compile_features(mWindows PUBLIC cxx_std_20)
